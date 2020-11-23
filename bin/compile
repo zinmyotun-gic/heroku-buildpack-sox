@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install sox"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://github.com/lepinsk/heroku-buildpack-sox/raw/master/sox.tar.gz"
+DOWNLOAD_URL="https://github.com/tgmerritt/heroku-buildpack-sox/blob/master/sox.tar.gz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
